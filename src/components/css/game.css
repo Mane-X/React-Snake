@@ -1,0 +1,32 @@
+.snakeGame{
+    background-image: url("https://wallpapers-hub.s3.us-east-2.amazonaws.com/242345.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.snakeArea{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    height: 400px;
+}
+.snake{
+    position: absolute;
+    background-color: purple;
+    width: 4%;
+    height: 4%;
+    z-index: 2;
+    border: solid white 0.2px;
+}
+.snakeFood{
+    width: 4%;
+    height: 4%;
+    position: absolute;
+    z-index: 1;
+    background-color: seashell;
+}

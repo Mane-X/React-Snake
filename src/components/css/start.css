@@ -1,0 +1,29 @@
+.start{
+    background-image: url("https://wallpapers-hub.s3.us-east-2.amazonaws.com/242348.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: aliceblue;
+}
+.h1{
+    font-size: 90px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border-radius: 101px;
+    border:solid grey 1px;
+    transition: ease-in-out 1s;
+}
+.btn:hover{
+ background-color: seashell;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+}
+.btn:focus{
+    outline: none;
+}
